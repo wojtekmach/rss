@@ -4,7 +4,6 @@
 
 ```elixir
 Mix.install([
-  {:kino, github: "elixir-nx/kino"},
   {:rss, github: "wojtekmach/rss"}
 ])
 
