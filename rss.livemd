@@ -1,0 +1,12 @@
+# RSS
+
+## Untitled
+
+```elixir
+Mix.install([
+  {:kino, github: "elixir-nx/kino"},
+  {:rss, github: "wojtekmach/rss"}
+])
+
+RSS.start("https://dashbit.co/feed")
+```
